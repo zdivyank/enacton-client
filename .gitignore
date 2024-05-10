@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local development files
+*.local
+
+# Environment variables
+.env
+client/.env
+server/.env
+ENACTON/server/.env
+
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Compiled binary files
+*.sw?

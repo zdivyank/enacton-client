@@ -1,0 +1,104 @@
+* {
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* background-color: #212121; */
+    /* color: #fff; */
+  }
+  
+
+  .icon
+  {
+    font-size: 25px;
+  }
+
+  .product_form
+  {
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    gap: 10px;
+    /* padding: 15px; */
+  }
+
+  .main-container
+  {
+    background-color: #212121;
+    color: white;
+    padding: 4%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 0% 5%; */
+    width: 50%;
+    border-radius: 15px;
+  }
+
+  .nav-container
+  {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .nav-ul
+  {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    gap : 10px;
+    font-size: 18px;
+    background-color: rgb(19, 18, 21);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    
+  }
+  .nav-li .active {
+    color: rgb(184, 184, 255); /* Change the color of the active link */
+    font-weight: bold; /* Add any additional styles you want */
+  }
+
+  .nav-li .active {
+    background-color: #28425e; /* Change the background color */
+    color: white; /* Change the text color */
+    padding: 8px 12px; /* Add some padding */
+    border-radius: 4px; /* Add rounded corners */
+  }
+
+  .nav-li a {
+    color: gray; /* Set the default color for non-active links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 12px; /* Add some padding */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  .nav-li a:hover {
+    color: blue; /* Change the color of links on hover */
+  }
+  
+  .nav-li .active {
+    color: rgb(255, 255, 255); /* Change the color of the active link */
+    font-weight: bold; /* Add any additional styles you want */
+  }
+  
+  .pagination
+  {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .updatebrand
+  {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    gap: 15px;
+  }
